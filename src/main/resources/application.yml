@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: edu-manage-demo
+
+server:
+  port: 15561
+
+logging:
+  config: classpath:logback.xml
+  level:
+    root: info
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
