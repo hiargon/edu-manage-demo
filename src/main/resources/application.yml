@@ -1,6 +1,11 @@
 spring:
   application:
     name: edu-manage-demo
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:edu_manage.db
+    username:
+    password:
 
 server:
   port: 15561
